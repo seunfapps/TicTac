@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace TicTac
 {
-    public class Row: List<Tile>
+    public enum Tile
     {
-
+        Blank,
+        X,
+        O
     }
 }
