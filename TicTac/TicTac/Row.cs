@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace TicTac
 {
-    public class Class1
+    public class Row: List<int>
     {
+
     }
 }
