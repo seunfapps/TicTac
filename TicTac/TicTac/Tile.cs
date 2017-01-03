@@ -1,15 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TicTac
+﻿namespace TicTac
 {
     public enum Tile
     {
+        Oinvalid = 50,
+        Xinvalid = 30,
         Blank,
-        X,
-        O
+        X = 3,
+        O = 5
+    }
+
+    public class Game
+    {
+        public const int XWON = 27;
+        public const int OWON = 125;
     }
 }
