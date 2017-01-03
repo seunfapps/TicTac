@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTac", "TicTac\TicTac.csproj", "{D9EF6CC4-08C3-4DA6-B6A3-7D9A2975BAE1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTac.Main", "TicTac\TicTac.Main.csproj", "{D9EF6CC4-08C3-4DA6-B6A3-7D9A2975BAE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTac.Tests", "TicTac.Tests\TicTac.Tests.csproj", "{89983B57-AA8D-4B2A-8E3F-2B51830836F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D9EF6CC4-08C3-4DA6-B6A3-7D9A2975BAE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9EF6CC4-08C3-4DA6-B6A3-7D9A2975BAE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9EF6CC4-08C3-4DA6-B6A3-7D9A2975BAE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89983B57-AA8D-4B2A-8E3F-2B51830836F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89983B57-AA8D-4B2A-8E3F-2B51830836F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89983B57-AA8D-4B2A-8E3F-2B51830836F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89983B57-AA8D-4B2A-8E3F-2B51830836F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
